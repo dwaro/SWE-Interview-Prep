@@ -8,9 +8,9 @@
 
 - [Technical Questions (code)](<https://github.com/dwaro/SWE-Interview-Prep/tree/master/Technical%20Questions%20(code)>)
 
-- [Algorithms](https://github.com/dwaro/SWE-Interview-Prep/tree/master/Algorithms)
+- [Algorithms](https://github.com/dwaro/SWE-Interview-Prep/tree/master/main/java/Algorithms)
 
-- [Data Structures](https://github.com/dwaro/SWE-Interview-Prep/tree/master/Data_Structures)
+- [Data Structures](https://github.com/dwaro/SWE-Interview-Prep/tree/master/main/java/Data_Structures)
 
 - test/java/
 
