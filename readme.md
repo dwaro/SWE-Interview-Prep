@@ -10,7 +10,7 @@
 
 - [Algorithms](https://github.com/dwaro/SWE-Interview-Prep/tree/master/main/java/Algorithms)
 
-- [Data Structures](https://github.com/dwaro/SWE-Interview-Prep/tree/master/main/java/Data_Structures)
+- [Data Structures](<https://github.com/dwaro/SWE-Interview-Prep/tree/master/main/java/Data_Structures>)
 
 - test/java/
 
