@@ -1,16 +1,14 @@
 # Data Structures
 
+## Array
+
 ## Stack
 
-## Queue
+## Queues
 
-## HashTable
+### `Queue`
 
-## Trees
-
-## Graphs
-
-## Sets
+### `Priority Queue`
 
 ## Lists
 
@@ -20,7 +18,27 @@
 
 ### `Vector`
 
-## Array
+## Sets
+
+### `HashSet`
+
+### `TreeSet`
+
+### `LinkedHashSet`
+
+## Maps
+
+### `HashMap`
+
+### `TreeMap`
+
+### `LinkedHashSet`
+
+## HashTable
+
+## Trees
+
+## Graphs
 
 ## Numbers
 
