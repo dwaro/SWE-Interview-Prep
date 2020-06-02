@@ -12,7 +12,9 @@
 
 ## Lists
 
-### `Linked List`
+### `Singly Linked List`
+
+### `Doubly Linked List`
 
 ### `ArrayList`
 
@@ -32,11 +34,19 @@
 
 ### `TreeMap`
 
-### `LinkedHashSet`
+### `LinkedHashMap`
 
 ## HashTable
 
 ## Trees
+
+### `Binary Tree`
+
+### `Binary Search Tree`
+
+### `Min Heap`
+
+### `Max Heap`
 
 ## Graphs
 

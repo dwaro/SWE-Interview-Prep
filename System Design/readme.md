@@ -96,3 +96,57 @@ person id and then access their name.
 NoSQL databases are particularly designed for scaling well.
 
 
+### `Database Partitioning a.k.a. Sharding`
+
+**Sharding** - Splitting the data across many machines while maintaining a system to figure out what data lives on
+each machine.
+
+**Vertical Partitioning** - this strategy entails splitting your data (tables or collections) by specific features. For
+example, each table of a database may live on a separate machine. This strategy can become difficult when individual
+tables or partitions overflow the current machine and need to be partitioned again.
+
+**Key-Based (Hash-Based) Partitioning** - providing a key for the data, the space is partitioned around mod(key, n),
+with N servers. This method uses a fixed number of servers. If more servers are to be added, then all of the data
+needs to be reallocated, which can be costly.
+
+**Directory-Based Partitioning** - This strategy entails a lookup table to find where the data is stored. This process
+allows for the ease of adding more servers, however, it can introduce a single point of failure with the lookup table
+and continuously accessing the table can negatively impact performance.
+
+### `Caching`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
