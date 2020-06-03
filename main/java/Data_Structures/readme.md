@@ -10,7 +10,7 @@ An array is a collection of elements stored in a continguous memory space. Eleme
 
 - The space complexity of an array is equal to the number of elements in the array, or the array's size. **O(n)** linear space.
 
-### Sorting an Array
+#### Sorting an Array
 
 To easily sort an array, we can use the util api: java.util.Arrays.sort(arr), which sorts thea rray in place.
 
@@ -25,6 +25,8 @@ To easily sort an array, we can use the util api: java.util.Arrays.sort(arr), wh
 ## Lists
 
 ### `Singly Linked List`
+
+##
 
 ### `Doubly Linked List`
 
