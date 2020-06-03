@@ -40,11 +40,17 @@ ArrayLists are faster than Vectors because they are not thread safe. ArrayLists 
 
 add(), remove(), clear(), clone(), contains(), forEach(), isEmpty(), indexOf(), iterator(), size(), set(), toArray(), sort()
 
-- get(): time = O(1)
+- get(): O(1)
 
-- add(): time = O(1)
+- add(): O(1)
+
+- add(index): O(n)
+
+- indexOf(): O(n)
 
 - remove(): time = O(n)
+
+- contains(): O(n)
 
 ### `Vector`
 
