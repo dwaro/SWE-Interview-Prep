@@ -4,6 +4,8 @@
 
 - [Search Algorithms](./readme.md#search)
 
+- Generate Permutations (Heap's Algorithms)
+
 # Sorting
 
 ### `Bubble Sort`
@@ -282,3 +284,43 @@ public static int binarySearch(int[] values, int val) {
 ### `Breadth First Search (BFS)`
 
 ### `Binary Search Tree`
+
+## Heap's Algorithm
+
+Heap's algorithm is used to generate all permutations.
+
+```java
+public List<List<Integer>> permute(int[] nums) {
+    List<List<Integer>> output = new ArrayList<List<Integer>>();
+    generatePermutations(nums, nums.length, output);
+    return output;
+}
+
+private void generatePermutations(int[] arr, int size, List<List<Integer>> output) {
+    
+    // size becomes 1 we add the permutation to the output
+    if (size == 1) {
+        List<Integer> list = new ArrayList<Integer>();
+        for (int num: arr) list.add(num);
+        output.add(list);
+    }
+
+    for (int i=0; i<size; i++) { 
+        generatePermutations(arr, size-1, output); 
+
+        // size is odd, swap first and last element 
+        if (size % 2 == 1) { 
+            int temp = arr[0]; 
+            arr[0] = arr[size-1]; 
+            arr[size-1] = temp; 
+        } 
+
+        // size is even, swap ith and last element 
+        else { 
+            int temp = arr[i]; 
+            arr[i] = arr[size-1]; 
+            arr[size-1] = temp; 
+        } 
+    }
+}
+```
