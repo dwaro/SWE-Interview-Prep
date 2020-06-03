@@ -95,7 +95,6 @@ person id and then access their name.
 
 NoSQL databases are particularly designed for scaling well.
 
-
 ### `Database Partitioning a.k.a. Sharding`
 
 **Sharding** - Splitting the data across many machines while maintaining a system to figure out what data lives on
@@ -114,6 +113,40 @@ allows for the ease of adding more servers, however, it can introduce a single p
 and continuously accessing the table can negatively impact performance.
 
 ### `Caching`
+
+Caching creates for speedy access to data. The cache sits between your application and the database(s), and is based on a key value pair. The cache is first checked by the app, before continuing to search in the database. A cache may consist of a query and its results, or you can cache a specific object (e.g. caching the rendering of a web page or caching results to the most popular searches).
+
+### `Asynchronous Processing`
+
+When an operation is slow or lengthy, it should be done asynchronously. We can also consider the options of preprocessing jobs, in which it may be okay that some results are out of date. Other solutions entail using a loader to let the user know that the page is loading data.
+
+### `MapReduce`
+
+Used to process a large amount of information. This program has two steps: a map step and a reduce step. The map takes the data and outputs a key, value pair. The reduce takes a key and its value(s) and reduces them in some fashion, and then outputs a new key and value. This may be an iterative / recursive process. MapReduce allows for a lot of parallel processing, allowing for more scalable solutions for data processing.
+
+## Networking
+
+### `Bandwidth`
+
+Bandwidth is the max data that can be transferred in a unit of time (usually expressed in bits per second). Bandwidth can be increased with a faster connection, a wider bandwidth, or by compressing data.
+
+### `Throughput`
+
+Throughput is the actual amount of data that is transferred in a unit of time. Throughput can be increased with a faster connection, a wider bandwidth, or by compressing data.
+
+### `Latency`
+
+Latency regards how long it takes for data to be transferred from one end of the network to the other end. Latency is important for instantaneous responses, for example, in online video games. If you're playing a sports game and you pass to another player, you want that pass to occur in the current state of the game.
+
+## Things to consider while designing a system
+
+1. **System Failure**
+
+2. **Availability and Reliability**
+
+3. **Read vs. Write -Heavy** if its ready heavy, you could consider using a cache; if write heavy, you could consider queueing the writes
+
+4. **Security**
 
 
 
